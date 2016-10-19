@@ -13,9 +13,3 @@ $app->get('/', function (Request $request, Response $response) {
         "chartData" => json_encode($fruits)]);
     return $response;
 });
-
-$app->get('/info', function (Request $request, Response $response) {
-    $this->logger->addInfo("info");
-       return phpinfo();
-});
-
