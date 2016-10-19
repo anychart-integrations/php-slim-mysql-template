@@ -16,6 +16,7 @@ return [
             'level' => \Monolog\Logger::DEBUG,
         ],
 
+        // MySQL settings
         'db' => [
             'host' => 'localhost',
             'user' => 'anychart_user',
