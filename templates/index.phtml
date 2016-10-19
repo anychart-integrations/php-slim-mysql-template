@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><?= $data['title']?></title>
+    <script src="https://cdn.anychart.com/js/latest/anychart-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.anychart.com/css/latest/anychart-ui.min.css" />
+    <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+<div id="container"></div>
+<script>
+    anychart.onDocumentReady(function() {
+        var chart = anychart.pie(<?= $data['chartData']?>);
+        chart.title("<?= $data['chartTitle']?>");
+        chart.container("container");
+        chart.draw();
+    });
+</script>
+</body>
+</html>
