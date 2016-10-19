@@ -1,5 +1,5 @@
 [<img src="https://cdn.anychart.com/images/logo-transparent-segoe.png?2" width="234px" alt="AnyChart - Robust JavaScript/HTML5 Chart library for any project">](https://anychart.com)
-Ruby basic template
+PHP basic template
 =========================
 
 This example shows how to use Anychart library with the PHP programming language, Slim micro framework and MySQL database.
@@ -87,9 +87,9 @@ php-slim-mysql-template/
 ```
 
 ## Technologies
-Language - [Ruby](https://www.ruby-lang.org)<br />
+Language - [PHP](http://php.net)<br />
 Database - [MySQL](https://www.mysql.com/)<br />
-Web framework - [sinatra](http://www.sinatrarb.com/)<br />
+Web framework - [Slim](http://www.slimframework.com/)<br />
 
 ## Further Learning
 * [Documentation](https://docs.anychart.com)
